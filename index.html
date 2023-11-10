@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/84890ca4a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Music Website</title>
+</head>
+<body>
+    <header>
+       <div class="menu_side">
+           <h1>Playlist</h1>
+            <div class="playlist">
+              <h4 class="active"><span></span><i class="bi fa-solid fa-music"></i>Playlist</h4>
+              <h4><span></span><i class="bi fa-solid fa-music"></i>last listening</h4>
+              <h4><span></span><i class="bi fa-solid fa-music"></i>Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="https://ss-images.saostar.vn/wp700/2016/12/05/961903/767176e15ea0d8e89eadaf058b8f97c4_1464886662.jpg" alt=""/>
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay fa-regular fa-circle-play" id="1"></i>
+                </li>
+            </div>
+       </div>
+       <div class="song_side">
+           
+       </div>
+       <div class="master_play">
+           <div class="wave">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+           </div>
+           <img src="https://www.techicy.com/wp-content/uploads/2020/01/Republic-Day-HD-4k-Wallpapers-Images-Free-Download-5.jpg" alt="" id="poster_master_play">
+           <h5 id="title">
+            Vande mataram
+            <div class="subtitle">Bankim Chandra</div>
+           </h5>
+           <div class="icon">
+            <i class="bi shuffle fa-solid fa-music">next</i>
+            <i class="bi fa-solid fa-backward-step"></i>
+            <i class="bi fa-solid fa-play"></i>
+            <i class="bi fa-solid fa-forward-step"></i>
+            <i class="bi fa-solid fa-cloud-arrow-down" id="download_music"></i>
+           </div>
+           <span id="currentStart">0:00</span>
+           <div class="bar">
+             <input type="range" name="" id="seek" min="0" max="100">
+             <div class="bar2" id="bar2"></div>
+             <div class="dot"></div>
+           </div>
+           <span id="currentEnd">0:30</span>
+           <div class="vol">
+            <i class="bi fa-solid fa-volume-low" id="vol_icon"></i>
+            <input type="range" name="" id="vol" min="0" max="100">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+           </div>
+       </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
